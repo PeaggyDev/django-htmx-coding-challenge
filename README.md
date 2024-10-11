@@ -4,7 +4,7 @@ Welcome to the e1+ coding challenge. This repo is a simple web application with 
 
 ## How to
 
-- Download the repository, remove the .git folder and the repo to your github/gitlab/bitbucket/... account as public repository.
+- Download the repository, remove the .git folder and upload the repo to your github/gitlab/bitbucket/... account as public repository.
 - Create a new branch called "solution"
 - Solve the coding challenge in this branch. Feel free to use Google etc. Please do not ask any questions regarding the challenge itself. Please come up with logical assumptions if something is not clear during the challenge.
 - Commit and push the changes to your "solution" branch once you are done.
