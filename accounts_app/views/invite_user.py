@@ -24,6 +24,6 @@ class InviteUserView(LoginRequiredMixin, View):
 
             invitation.send_invitation_email()
 
-            return render(request, "accounts_app/profile.html", {"invite_user_form": form, "invited": True})
+            return render(request, "accounts_app/invitation_successfull.html", {"invite_user_form": form, "invited": True})
         else:
             return render(request, "accounts_app/profile.html", {"invite_user_form": form})
